@@ -9,6 +9,7 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 	padding: 30px;
+	margin-bottom: 50px;
 }
 header {
 	height: 100px;
@@ -63,7 +64,7 @@ nav a {
 	position: relative;
 	top: 450px;
 	background: #ebebeb;
-	height: 2000px;
+	height: 2510px;
 }
 .content-area h2 {
 	font-family: poppins;
@@ -79,23 +80,50 @@ nav a {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1500px;
 	margin: auto;
 }
 
 .gallery {
 	margin: 5px;
 	border: 1px solid #ebebeb;
-	width: 390px;
+	width: 300px;
 	float: left
 }
 
 .gallery img {
-	width: 100%;
-	height: auto;
+	width: 280px;
+	height: 180px;
+	border-radius: 50%;
 }
 
 .desc {
 	padding: 15px;
 	text-align: center;
 }
+
+h3 {
+	font-family: monospace;
+	color: gray
+}
+
+.footer {
+	font-family: monospace;
+	color: white;
+	background-color: gray;
+	font-weight: lighter;
+	padding: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
